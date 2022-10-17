@@ -1,0 +1,27 @@
+.grid {
+  width: 306px;
+  height: 306px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border: solid black 1px;
+}
+
+.mole {
+  background-image: url('mole.jpeg');
+  background-size: cover;
+}
+
+#forButton{
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  font-size: 25px;
+  border: solid green 2;
+}

@@ -20,7 +20,7 @@ function randomSquare(){
 }
 
 squares.forEach(square =>{
-  square.addEventListener('mousedown', () => {
+  square.addEventListener('click', () => { //mousedown
     if(square.id == hitPosition){
       result++;
       score.innerHTML=result;
@@ -31,7 +31,7 @@ squares.forEach(square =>{
 
 function moveMole(){
   let timerId = null;
-  setInterval(randomSquare,500);
+  setInterval(randomSquare,1000);
 }
 moveMole();
 
